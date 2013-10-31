@@ -1,0 +1,27 @@
+{
+  "name":"spike/ads",
+  "description":"Spike ads web application of PHP.",
+  "repositories":[
+    {
+      "type": "vcs",
+      "url":  "https://github.com/metaps-lab/spike-libs-php.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/mychaelstyle/php-utils.git"
+    }
+  ],
+  "require": {
+    "spike/libs-php": "0.*",
+    "aws/aws-sdk-php": "2.*",
+    "symfony/dependency-injection": "*",
+    "symfony/http-kernel": "*",
+    "doctrine/cache": "*",
+    "monolog/monolog": "*",
+    "symfony/yaml": "*"
+  },
+  "autoload": {
+    "psr-0":{
+    }
+  }
+}
